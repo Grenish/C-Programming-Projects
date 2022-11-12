@@ -9,9 +9,9 @@ int main(){
     char operator;
     float answer;
 
-    printf("Simple C Calculator\n");
+    printf("Simple C Calculator\n\n");
 
-    printf("Enter The Sum: \n\n");
+    printf("Enter The Sum: \n");
     scanf("%f %c %f", &valueOne, &operator, &valueTwo);
 
     switch (operator)
